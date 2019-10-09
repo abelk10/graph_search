@@ -1,0 +1,50 @@
+#graph{
+            background-color: #7a7a7a;
+            border: 1px solid #777;
+            border-radius: 5px;
+            box-shadow: 7px 7px 0px 0px rgba(0,0,0,.05);
+        }
+        @font-face{
+            font-family: lucida;
+            src: url(../fonts/LCALLIG.TTF);
+        }
+        .add-reduce-add{
+            position: relative;
+            top: -2px;
+            height: 35px;
+            left: -5px;
+            border-radius: 0px 15px 15px 0px;
+        }
+        .add-reduce-reduce{
+            position: relative;
+            top: -2px;
+            height: 35px;
+            left: 5px;
+            border-radius: 15px 0px 0px 15px;
+        }
+        .add-reduce{
+            border: 1px solid #333;
+            background: #fff;
+            padding: 10px 10px;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            font-size: .8em;
+            font-weight: bold;
+        }
+        .add-reduce-add:focus,.add-reduce-add:focus:active{
+            outline: none;
+        }
+        .add-reduce-reduce:focus,.add-reduce-reduce:focus:active{
+            outline: none;
+        }
+        .remove:focus,.remove:focus:active{
+            outline: none;
+        }
+        .btn-xs.remove {
+            position: relative;
+            top: -18px;
+            left: -11px;
+            border-radius: 50%;
+        }
